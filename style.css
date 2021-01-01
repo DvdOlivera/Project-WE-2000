@@ -1,0 +1,264 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    height: 1280px;
+}
+#bodycont{
+    background-size: 100% 100%;
+
+    background-image: url("Images/WE2000.jpg");
+    background-repeat: no-repeat;
+   
+}
+#bodycont{
+    overflow: hidden;
+}
+#imagebanner{
+
+    background-size: 100% 100%;
+    height: 130px;
+    background-image: url("Images/bBanner.png");  
+    z-index: 10;
+    background-repeat: no-repeat;
+   
+}
+header{
+    position: relative; 
+    top:-130px;
+
+}
+h1{
+    position: flex;
+    align-items: center;
+    text-align: center;
+
+}
+#contmax{
+    display: flex;
+  
+    flex-flow: column nowrap;
+    overflow: hidden;
+
+}
+#contmax :hover{
+    width: 55%;
+    color: rgb(209, 196, 19);
+
+}
+
+
+.options{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transform: skew(45deg) ;
+    margin-top: -1px;
+    font-size: 38px;
+    padding-left: 34%;
+    letter-spacing: 2px;
+   
+
+}
+
+.trapezoid {
+    text-shadow: 4px 3px 2px rgb(16, 16, 32);
+    transition: 100ms;
+    transform: skew(-50deg);
+    border-top: solid 7px;
+    border-top-color:rgb(94, 94, 185);
+    background: rgb(16, 12, 82);
+    width: 48%;
+    height: 40px;
+    margin: 3px;
+    margin-left: -50px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    border-bottom: solid 7px;
+    border-right: solid 9px;
+    border-right-color: rgb(16, 16, 32) ;
+    border-bottom-color:rgb(16, 16, 32);
+    color: white;
+}
+
+.newtrapezoidgreen2{
+    text-shadow: 4px 3px 2px rgb(27, 36, 28);
+    position: relative;
+    bottom:755px;
+    transition: 150ms;
+    transform: skew(-50deg);
+    border-top: solid 7px;
+    border-color:rgb(168, 192, 172);
+   
+    background: linear-gradient(90deg, rgb(80, 104, 81) 0%, rgb(122, 139, 125)  100%);
+    width: 62%;
+    height: 40px;
+    margin: 3px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-right: -50px;
+    border-left: solid 9px;
+    border-left-color: rgb(168, 192, 172);
+    border-bottom: solid 7px;
+    border-bottom-color:rgb(27, 36, 28);
+    color: white;
+}
+
+.newtrapezoidgreen{
+    text-shadow: 4px 3px 2px rgb(27, 36, 28);
+    position: relative;
+    bottom:455px;
+    transition: 150ms;
+    transform: skew(-50deg);
+    border-top: solid 7px;
+    border-color:rgb(168, 192, 172);
+   
+    background: linear-gradient(90deg, rgb(80, 104, 81) 0%, rgb(122, 139, 125)  100%);
+    width: 62%;
+    height: 40px;
+    margin: 3px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-right: -50px;
+    border-left: solid 9px;
+    border-left-color: rgb(168, 192, 172);
+    border-bottom: solid 7px;
+    border-bottom-color:rgb(27, 36, 28);
+    color: white;
+}
+#divresponsive :hover{
+  
+    width: 70%;
+    color: rgb(209, 196, 19);
+}
+#divresponsive{
+
+   
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-flow: column nowrap;
+    width: 100%;
+    
+}
+.trapezoidgreen2{
+    text-shadow: 4px 3px 2px rgb(27, 36, 28);
+    
+    position: relative;
+    bottom:755px;
+    transition: 150ms;
+    transform: skew(-50deg);
+    border-top: solid 7px;
+    border-color:rgb(168, 192, 172) ;
+   
+    background: linear-gradient(90deg, rgb(80, 104, 81) 0%, rgb(122, 139, 125) 100%);
+    width: 62%;
+    height: 40px;
+    margin: 3px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    border-left: solid 9px;
+    border-left-color: rgb(168, 192, 172);
+    border-bottom: solid 7px;
+    border-bottom-color:rgb(27, 36, 28);
+    color: white;
+    margin-right:-100%;
+   
+}
+.trapezoidgreen{
+    text-shadow: 4px 3px 2px rgb(27, 36, 28);
+    
+    position: relative;
+    bottom:455px;
+    transition: 150ms;
+    transform: skew(-50deg);
+    border-top: solid 7px;
+    border-color:rgb(168, 192, 172) ;
+   
+    background: linear-gradient(90deg, rgb(80, 104, 81) 0%, rgb(122, 139, 125) 100%);
+    width: 62%;
+    height: 40px;
+    margin: 3px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    border-left: solid 9px;
+    border-left-color: rgb(168, 192, 172);
+    border-bottom: solid 7px;
+    border-bottom-color:rgb(27, 36, 28);
+    color: white;
+    margin-right:-100%;
+   
+}
+.secondaryoptions{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transform: skew(45deg) ;
+    margin-top: -1px;
+    font-size: 38px;
+    padding-left: 10%;
+    letter-spacing: 2px;
+}
+#containerfoo{
+    position: relative;
+    
+    top:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(223, 213, 213);
+    width: 95%;
+    margin:auto;
+    border-width: 2px 6px 2px 6px;
+    border-color: rgb(211, 180, 6);
+    border-style: solid;
+    height: 120px;
+    background: rgb(3,25,6);
+    background: linear-gradient(180deg, rgba(3,25,6,1) 0%, rgba(10,59,17,1) 100%);
+}
+#memory{
+    
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+#downloads{
+    margin-top: 20px;
+}
+.filter{
+    filter:brightness(0.6);
+}
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-12-28 2:0:41
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  
+  100% {
+    -webkit-transform: translateY(130px);
+            transform: translateY(130px);
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(130px);
+            transform: translateY(130px);
+  }
+}
+.off{
+    pointer-events:none;
+}
