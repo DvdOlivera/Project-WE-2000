@@ -34,7 +34,7 @@ function newText () {
 }
 
 document.querySelector("#downloads").addEventListener("click", takeOptiondownloads);
-document.querySelector("#downloads").addEventListener("click", blueOff);
+document.querySelectorAll(".trapezoid").forEach((option) => { option.addEventListener("click", blueOff)});
 function takeOptiondownloads(){
     document.querySelector("#gigacontainer").classList.add("filter");
     console.log("ejecuta");
@@ -52,6 +52,7 @@ document.querySelectorAll(".downloadsOptions").forEach((options,i)=>{
 
 
 }
+
 function blueOff(){
    
     document.querySelectorAll(".trapezoid").forEach((options)=>{
